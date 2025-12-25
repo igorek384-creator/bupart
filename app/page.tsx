@@ -7,7 +7,7 @@ export default async function Home() {
   return (
     <div className="grid">
       {listings.map((item: any) => (
-        <ListingCard key={item.id} item={item} />
+        <ListingCard key={item.id} listing={item} />
       ))}
     </div>
   )
